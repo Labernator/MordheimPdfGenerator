@@ -1,0 +1,120 @@
+{
+    "rules": [
+        {
+            "name": "Accuracy",
+            "text": "Add +1 to your to-hit rolls"
+        },
+        {
+            "name": "Avoid Stun",
+            "text": "Treat all rolls of \"Stunned\" on the injury table as \"Knocked down\"."
+        },
+        {
+            "name": "Armour Yield",
+            "text": "Enemy save modifier +1. If it has none, it gets a 6+ armor save"
+        },
+        {
+            "name": "Barrage",
+            "text": "When failing to wound, gain an additional attack at -1 to hit."
+        },
+        {
+            "name": "Beast bane",
+            "text": "Any animal charged or wishing to charge a model with this weapon must first take a Fear test"
+        },
+        {
+            "name": "Cannot Be Parried",
+            "text": "Attacks with this weapon cannot be parried"
+        },
+        {
+            "name": "Cavalry Bonus (X)",
+            "text": "A mounted warrior armed receives a +X Strength bonus in the turn he charges."
+        },
+        {
+            "name": "Concussion",
+            "text": "A roll of 2-4 is treated as stunned when rolling to see the extent of a models injury"
+        },
+        {
+            "name": "Critical Damage",
+            "text": "Add +1 to any roll on the critical hit chart"
+        },
+        {
+            "name": "Cutting Edge",
+            "text": "Enemy save modifier -1"
+        },
+        {
+            "name": "Difficult to Use",
+            "text": "May only carry a shield in the offhand during close combat. No other weapon or buckler allowed."
+        },
+        {
+            "name": "Extra Attack",
+            "text": "Add an additional attack."
+        },
+        {
+            "name": "Flaming Attack",
+            "text": "Roll a D6 when scoring a hit with this weapon. On a roll of 6 the opponent takes a Strength 4 hit in the recovery phase."
+        },
+        {
+            "name": "Fog of Death",
+            "text": "A model hit by the censer must take a Toughness test. If the test is failed, the model suffers an automatic wound. The wielder rolls a D6 and suffers a wound on the roll of 6. Ignore this rule when fighting enemy Undead and possessed models.  If the model wielding the censer also has the fog-enhancing warpstone shards, enemy models suffer -1 to hit with ranged weapons."
+        },
+        {
+            "name": "Heavy",
+            "text": "The Strength bonus applies only to the first turn of hand to hand combat."
+        },
+        {
+            "name": "Length",
+            "text": "Can only be used by man-sized or larger models.  Skaven, Halflings, Dwarfs, etc. cannot use this."
+        },
+        {
+            "name": "Lightning Speed",
+            "text": "Gain +1 Initiative in close combat"
+        },
+        {
+            "name": "Off-hand",
+            "text": "-1 to hit when used as an offhand weapon"
+        },
+        {
+            "name": "Parry",
+            "text": "Once per combat phase the model may try to parry an incoming blow. To parry roll a D6. If the score is higher than the number your opponent rolled to hit, the hit is ignored.Add +1 to the roll if your WS is twice or more than that of your opponent. Models armed with a buckler and a weapon that grants parry may re-roll failed parry rolls. Models armed with two weapons that both grant parry adds +1 to the parry roll results. If your opponent scored several hits, the parry roll has to beat the highest roll. If a model is fighting against several opponents, it may choose whose attacks it wishes to parry. Attacks made with a Strength with at least twice the value of the models own Strength and attacks which scored a 6 on the to hit roll cannot be parried (this includes multiple hits where at least one scored a 6)"
+        },
+        {
+            "name": "Range",
+            "text": "Can attack models up to a distance of 3” (a charge is not needed, neither is base contact). When in base contact with an enemy it can only be used against charging enemies."
+        },
+        {
+            "name": "Razor Sharp",
+            "text": "Enemy save modifier -1"
+        },
+        {
+            "name": "Strike First",
+            "text": "When charged, strike first (even before the charger)"
+        },
+        {
+            "name": "Strike Last",
+            "text": "Always strikes last regardless of Initiative (unless the opponent also strikes last), even when charging"
+        },
+        {
+            "name": "Trap Blade",
+            "text": "Whenever you make a successful parry attempt roll a D6. If you score a 4+, you break the weapon your opponent was using. The weapon is removed from the models equipment list."
+        },
+        {
+            "name": "Two-Handed",
+            "text": "May not use any equipment in the offhand during close combat. If the model is equipped with a shield it still gets a +1 bonus to its armour save against shooting"
+        },
+        {
+            "name": "Unwieldy",
+            "text": "May only use a shield or a buckler in the offhand during close combat."
+        },
+        {
+            "name": "Vicious Critical",
+            "text": "When scoring a critical hit, roll twice on the critical hits table and choose the result you prefer."
+        },
+        {
+            "name": "Whip crack",
+            "text": "Add an additional attack when charging or being charged (only against the charger). The attack has the special rule Strike first. Gain no more than one additional attack even when being charged by multiple enemies or using multiple whips."
+        },
+        {
+            "name": "Prodding",
+            "text": "For this model, increase the control radius over Cave squigs from 6\" to 12\"."
+        }
+    ]
+}

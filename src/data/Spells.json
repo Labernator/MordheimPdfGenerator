@@ -1,0 +1,34 @@
+{
+    "Spells": [
+        {
+            "name": "Eye of God",
+            "type": "Dark Magic",
+            "castingCost": "7+",
+            "text": "You may use the Eye of God successfully only once per Battle. Choose a single model within 6\". Roll a D6 to see the result: 1 - The Model is taken out of action immediately, but must not roll on the serious injuries chart. 2-5 - The Model gains +1 on any Characteristic for the remainder of the battle. 6 - The Model gains +1 on ALL its Characteristics for the remainder of the battle."
+        },
+        {
+            "name": "Spell of Doom",
+            "type": "Necromancy",
+            "castingCost": "9+",
+            "text": "Choose one enemy model within 12\". The model must immediately take a Strength test. If it fails, you may roll on the Injury table to see what happens to the unfortunate warrior."
+        },
+        {
+            "name": "Fires of U'Zhul",
+            "type": "Lesser Magic",
+            "castingCost": "7+",
+            "text": "1 S4 Fireball with 18\" range."
+        },
+        {
+            "name": "Silver Arrows of Arha",
+            "type": "Lesser Magic",
+            "castingCost": "7+",
+            "text": "Can't be cast whilst in combat. D6+2 S3 arrows, 24\" range. Use BS but ignore movement, range and cover penalties."
+        },
+        {
+            "name": "Zzap!",
+            "type": "Lesser Magic",
+            "castingCost": "9+",
+            "text": "Range 12\". Causes D3 hits with S4 on the closest enemy model, that ignore armour saves."
+        }
+    ]
+}

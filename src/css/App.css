@@ -1,0 +1,72 @@
+:root {
+  /* --main-color: #e18a07; */
+  --main-color: #659DBD;
+  --background-color: #F1F1F1;
+  --black-color: #2B4351;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-body {
+  height: calc(100vh);
+  /* width: calc(100vw - 2rem); */
+  font-family: Lucida Calligraphy;
+  position: relative;
+  background-color: var(--background-color);
+  color: var(--black-color);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  max-height: 100%;
+}
+
+.large-header {
+  font-size: 1.5rem;
+  padding: 0.7rem 0.5rem 0.7rem 0rem;
+  font-weight: bold;
+  clear: both;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.tile {
+  padding: 1rem;
+  border: 0.15rem solid var(--black-color);
+  border-radius: 0.35rem;
+  margin: 1rem;
+}
+
+.back-btn{
+  border: 0.15rem solid;
+  border-radius: 0.25rem;
+  text-align: center;
+  margin: 1rem;
+  padding: 0.4rem;
+}
+
+.roster-flexbox {
+  display: flex;
+  margin-left: 1rem;
+  justify-content: space-between;
+}
+
+.img-container {
+  margin: 5rem 3rem;
+  width: 75%;
+  max-width: 1000px
+}

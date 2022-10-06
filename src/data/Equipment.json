@@ -1,0 +1,759 @@
+{
+    "equipment": [
+        {
+            "MeleeWeapons": [
+                {
+                    "type": "Dagger",
+                    "cost": 2,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Armour Yield"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Staff",
+                    "cost": 3,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Concussion"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Mace",
+                    "cost": 3,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Concussion"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Flail",
+                    "cost": 15,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Heavy",
+                        "Two-handed"
+                    ],
+                    "strengthModifier": "+2"
+                },
+                {
+                    "type": "Hammer",
+                    "cost": 3,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Concussion"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Club",
+                    "cost": 3,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Concussion"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Axe",
+                    "cost": 5,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Cutting Edge"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Spear",
+                    "cost": 5,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Strike First",
+                        "Unwieldy",
+                        "Cavalry Bonus(1)"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Squig Prodder",
+                    "cost": 15,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Prodding",
+                        "Strike First",
+                        "Unwieldy",
+                        "Cavalry Bonus(1)"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Halberd",
+                    "cost": 10,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Two-Handed"
+                    ],
+                    "strengthModifier": "+1"
+                },
+                {
+                    "type": "Morning Star",
+                    "cost": 15,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Heavy",
+                        "Difficult to Use"
+                    ],
+                    "strengthModifier": "+1"
+                },
+                {
+                    "type": "Dwarf Axe",
+                    "cost": 15,
+                    "rarity": 8,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Cutting Edge",
+                        "Parry"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Sword",
+                    "cost": 10,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Parry"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Great Weapon",
+                    "cost": 15,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Two-Handed",
+                        "Strike Last"
+                    ],
+                    "strengthModifier": "+2"
+                },
+                {
+                    "type": "Steel Whip",
+                    "cost": 10,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Cannot Be Parried",
+                        "Whipcrack"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Sigmarite Warhammer",
+                    "cost": 25,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Concussion",
+                        "Holy Weapon"
+                    ],
+                    "strengthModifier": "+1"
+                },
+                {
+                    "type": "Spiked Gauntlet",
+                    "cost": 15,
+                    "rarity": 7,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Parry"
+                    ],
+                    "strengthModifier": ""
+                },
+                {
+                    "type": "Brass Knuckles",
+                    "cost": 20,
+                    "rarity": 6,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Pair",
+                        "Cumbersome"
+                    ],
+                    "strengthModifier": "+1"
+                },
+                {
+                    "type": "War Chain",
+                    "cost": 20,
+                    "rarity": 0,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Cannot Be Parried",
+                        "Entangle",
+                        "Reach"
+                    ],
+                    "strengthModifier": "+1"
+                },
+                {
+                    "type": "Trident",
+                    "cost": 15,
+                    "rarity": 7,
+                    "weaponType": "Melee",
+                    "rules": [
+                        "Strike First",
+                        "Parry"
+                    ],
+                    "strengthModifier": ""
+                }
+            ]
+        },
+        {
+            "MissileWeapons": [
+                {
+                    "type": "Sling",
+                    "cost": 2,
+                    "rarity": 0,
+                    "weaponType": "Shooting",
+                    "rules": [
+                        "Armour yield",
+                        "Fire Twice"
+                    ],
+                    "strength": 3,
+                    "range": 18
+                },
+                {
+                    "type": "Pistol",
+                    "cost": 15,
+                    "rarity": 8,
+                    "weaponType": "Shooting",
+                    "rules": [
+                        "Prepare Shot",
+                        "Cutting Edge",
+                        "Hand-to-Hand",
+                        "Blackpowder"
+                    ],
+                    "strength": 4,
+                    "range": 6
+                },
+                {
+                    "type": "Brace of Pistols",
+                    "cost": 30,
+                    "rarity": 8,
+                    "weaponType": "Shooting",
+                    "rules": [
+                        "Prepare Shot",
+                        "Cutting Edge",
+                        "Hand-to-Hand",
+                        "Blackpowder"
+                    ],
+                    "strength": 4,
+                    "range": 6
+                },
+                {
+                    "type": "Crossbow",
+                    "cost": 25,
+                    "rarity": 0,
+                    "weaponType": "Shooting",
+                    "rules": [
+                        "Move or Fire"
+                    ],
+                    "strength": 4,
+                    "range": 30
+                },
+                {
+                    "type": "Crossbow Pistol",
+                    "cost": 35,
+                    "rarity": 9,
+                    "weaponType": "Shooting",
+                    "rules": [
+                        "Hand-to-Hand"
+                    ],
+                    "strength": 4,
+                    "range": 10
+                },
+                {
+                    "type": "Short Bow",
+                    "cost": 5,
+                    "rarity": 0,
+                    "weaponType": "Shooting",
+
+                    "strength": 3,
+                    "range": 16
+                },
+                {
+                    "type": "Bow",
+                    "cost": 10,
+                    "rarity": 0,
+                    "weaponType": "Shooting",
+
+                    "strength": 3,
+                    "range": 24
+                },
+                {
+                    "type": "Long Bow",
+                    "cost": 15,
+                    "rarity": 0,
+                    "weaponType": "Shooting",
+
+                    "strength": 3,
+                    "range": 30
+                },
+                {
+                    "type": "Elf Bow",
+                    "cost": 35,
+                    "variableCost": "3D6",
+                    "rarity": 12,
+                    "weaponType": "Shooting",
+                    "rules": [
+                        "Cutting Edge"
+                    ],
+                    "strength": 3,
+                    "range": 36
+                },
+                {
+                    "type": "Javelins",
+                    "cost": 15,
+                    "rarity": 0,
+                    "weaponType": "Shooting",
+                    "rules": [
+                        "Thrown Weapon"
+                    ],
+                    "strength": "As User",
+                    "range": 8
+                },
+                {
+                    "type": "Throwing Knives",
+                    "cost": 15,
+                    "rarity": 5,
+                    "weaponType": "Shooting",
+                    "rules": [
+                        "Thrown Weapon"
+                    ],
+                    "strength": "As User",
+                    "range": 6
+                }
+            ]
+        },
+        {
+            "Armour": [
+                {
+                    "type": "Light Armour",
+                    "cost": 20,
+                    "rarity": 0,
+                    "armourType": "Suit",
+
+                    "armour": 2
+                },
+                {
+                    "type": "Heavy Armour",
+                    "cost": 50,
+                    "rarity": 0,
+                    "armourType": "Suit",
+
+                    "armour": 3
+                },
+                {
+                    "type": "Gromril Armour",
+                    "cost": 150,
+                    "rarity": 11,
+                    "armourType": "Suit",
+                    "rules": [
+                        "Gromril"
+                    ],
+                    "armour": 4
+                },
+                {
+                    "type": "Lamellar Armour",
+                    "cost": 120,
+                    "rarity": 9,
+                    "armourType": "Suit",
+
+                    "armour": 4
+                },
+                {
+                    "type": "Helmet",
+                    "cost": 10,
+                    "rarity": 0,
+                    "armourType": "Head",
+                    "rules": [
+                        "Avoid Stun"
+                    ],
+                    "armour": 0
+                },
+                {
+                    "type": "Shield",
+                    "cost": 5,
+                    "rarity": 0,
+                    "armourType": "Shield",
+
+                    "armour": 1
+                },
+                {
+                    "type": "Buckler",
+                    "cost": 5,
+                    "rarity": 0,
+                    "armourType": "Shield",
+                    "rules": [
+                        "Parry"
+                    ],
+                    "armour": 0
+                },
+                {
+                    "type": "Pavise",
+                    "cost": 25,
+                    "rarity": 8,
+                    "armourType": "Shield",
+                    "rules": [
+                        "Cover"
+                    ],
+                    "armour": 0
+                },
+                {
+                    "type": "Toughened Leathers",
+                    "cost": 5,
+                    "rarity": 0,
+                    "armourType": "Suit",
+
+                    "armour": 1
+                },
+                {
+                    "type": "Ithilmar Armour",
+                    "cost": 90,
+                    "rarity": 11,
+                    "armourType": "Suit",
+                    "rules": [
+                        "Light Armour"
+                    ],
+                    "armour": 3
+                },
+                {
+                    "type": "Chaos Armour",
+                    "cost": 185,
+                    "rarity": 13,
+                    "armourType": "Suit",
+                    "rules": [
+                        "Rarity",
+                        "Cost",
+                        "Gift of Chaos",
+                        "Spellcasters"
+                    ],
+                    "armour": 4
+                },
+                {
+                    "type": "Bracers",
+                    "cost": 20,
+                    "rarity": 8,
+                    "armourType": "Special",
+                    "rules": [
+                        "Suit and Shield",
+                        "Parry"
+                    ],
+                    "armour": 0
+                },
+                {
+                    "type": "Reinforced Plate Armour",
+                    "cost": 95,
+                    "rarity": 9,
+                    "armourType": "Suit",
+                    "rules": [
+                        "Cumbersome",
+                        "Save"
+                    ],
+                    "armour": 3
+                },
+                {
+                    "type": "Sea Dragon Cloak",
+                    "cost": 50,
+                    "variableCost": "2D6",
+                    "rarity": 10,
+                    "armourType": "Cloak",
+                    "rules": [
+                        "Scales"
+                    ],
+                    "armour": 2
+                },
+                {
+                    "type": "Elven Cloak",
+                    "cost": 100,
+                    "variableCost": "10*D6",
+                    "rarity": 12,
+                    "armourType": "Cloak",
+                    "rules": [
+                        "Hard Target"
+                    ],
+                    "armour": 2
+                },
+                {
+                    "type": "Forest Cloak",
+                    "cost": 50,
+                    "rarity": 10,
+                    "armourType": "Cloak",
+                    "rules": [
+                        "One with the Forest"
+                    ],
+                    "armour": 2
+                },
+                {
+                    "type": "Cathayan Silk Clothes",
+                    "cost": 50,
+                    "variableCost": "2D6",
+                    "rarity": 9,
+                    "armourType": "Cloak",
+                    "rules": [
+                        "Prestigious"
+                    ],
+                    "armour": 2
+                }
+            ]
+        },
+        {
+            "Miscallaneous": [
+                {
+                    "type": "Dark Venom",
+                    "cost": 30,
+                    "variableCost": "2D6",
+                    "rarity": 8,
+                    "genus": "Drugs, Poison & Potions",
+                    "rules": []
+                },
+                {
+                    "type": "Garlic",
+                    "cost": 1,
+                    "rarity": 0,
+                    "genus": "Drugs, Poison & Potions",
+                    "rules": []
+                },
+                {
+                    "type": "Elven Wine",
+                    "cost": 50,
+                    "variableCost": "3D6",
+                    "rarity": 10,
+                    "genus": "Drugs, Poison & Potions",
+                    "rules": []
+                },
+                {
+                    "type": "Holy Relic",
+                    "cost": 15,
+                    "variableCost": "3D6",
+                    "rarity": 6,
+                    "genus": "Books & Scrolls",
+
+                    "text": ""
+                },
+                {
+                    "type": "Unholy Relic",
+                    "cost": 15,
+                    "variableCost": "3D6",
+                    "rarity": 6,
+                    "genus": "Books & Scrolls",
+
+                    "text": "Automatically pass the first leadership test this model needs to make."
+                },
+                {
+                    "type": "Holy Tome",
+                    "cost": 100,
+                    "variableCost": "10*D6",
+                    "rarity": 8,
+
+                    "genus": "Books & Scrolls"
+                },
+                {
+                    "type": "Blessed Water",
+                    "cost": 10,
+                    "variableCost": "3D6",
+                    "rarity": 6,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Bugman's Ale",
+                    "cost": 50,
+                    "variableCost": "3D6",
+                    "rarity": 9,
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Crimson Shade",
+                    "cost": 35,
+                    "variableCost": "D6",
+                    "rarity": 8,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Healing Herbs",
+                    "cost": 20,
+                    "variableCost": "2D6",
+                    "rarity": 8,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Healing Potion",
+                    "cost": 30,
+                    "variableCost": "D6",
+                    "rarity": 9,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Liquor Flask",
+                    "cost": 30,
+                    "variableCost": "D6",
+                    "rarity": 7,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Madcap Mushrooms",
+                    "cost": 30,
+                    "variableCost": "3D6",
+                    "rarity": 9,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Mandrake Root",
+                    "cost": 25,
+                    "variableCost": "D6",
+                    "rarity": 8,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Potion of Strength",
+                    "cost": 30,
+                    "variableCost": "D6",
+                    "rarity": 6,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Potion of Speed",
+                    "cost": 40,
+                    "variableCost": "D6",
+                    "rarity": 10,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Spider's Poison",
+                    "cost": 25,
+                    "variableCost": "2D6",
+                    "rarity": 8,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Tears of Shallaya",
+                    "cost": 10,
+                    "variableCost": "2D6",
+                    "rarity": 7,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Vial of Pestilence",
+                    "cost": 25,
+                    "variableCost": "2D6",
+                    "rarity": 9,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Vodka",
+                    "cost": 35,
+                    "variableCost": "2D6",
+                    "rarity": 8,
+
+                    "genus": "Drugs, Poison & Potions"
+                },
+                {
+                    "type": "Net",
+                    "cost": 5,
+                    "rarity": 0,
+
+                    "genus": "Other Equipment"
+                },
+                {
+                    "type": "Rope & Hook",
+                    "cost": 5,
+                    "rarity": 0,
+
+                    "genus": "Other Equipment"
+                },
+                {
+                    "type": "Lantern",
+                    "cost": 10,
+                    "rarity": 0,
+
+                    "genus": "Other Equipment"
+                },
+                {
+                    "type": "Rosary",
+                    "cost": 10,
+                    "rarity": 6,
+
+                    "genus": "Other Equipment"
+                },
+                {
+                    "type": "Torch",
+                    "cost": 2,
+                    "rarity": 0,
+
+                    "genus": "Other Equipment"
+                },
+                {
+                    "type": "Lock Picks",
+                    "cost": 15,
+                    "rarity": 8,
+
+                    "genus": "Other Equipment"
+                },
+                {
+                    "type": "War Horn",
+                    "cost": 30,
+                    "variableCost": "2D6",
+                    "rarity": 8,
+                    "rules": [
+                        "Hold your Ground"
+                    ],
+                    "genus": "Other Equipment"
+                },
+                {
+                    "type": "Victuals",
+                    "cost": 8,
+                    "rarity": 0,
+                    "genus": "Other Equipment"
+                },
+                {
+                    "type": "Lucky Charm",
+                    "cost": 10,
+                    "rarity": 0,
+                    "genus": "Other Equipment",
+                    "text": "Roll a D6 on the first hit this model takes. On a 4+ the hit is discarded."
+                },
+                {
+                    "type": "Rabbits Foot",
+                    "cost": 10,
+                    "rarity": 0,
+                    "genus": "Other Equipment",
+                    "text": "The wearer may re-roll one dice during the battle. If it is not used during the battle it, can be used to re-roll one dice during Exploration (provided the wearer may search the ruin)."
+                }
+
+            ]
+        }
+    ]
+}

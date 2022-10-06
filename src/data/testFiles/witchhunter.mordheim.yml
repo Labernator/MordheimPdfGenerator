@@ -1,0 +1,55 @@
+warband: The Hellsing Organisation (Witch Hunter)
+campaign: 0
+gc: 0
+shards: 0
+objective: ""
+alignment: ""
+
+heros:
+    - hero: Lady Integra Wingates Hellsing (Witch Hunter Captain) [20XP]
+      stats: M4, WS4, BS4, S3, T3, W1, I4, A1, Ld8, Sv-
+      weapons: Crossbow Pistol, Hammer, Dagger
+      armour: Helmet
+      rules: Leader, Burn the Witch!
+      skilllists: Strength, Academic, Combat, Speed
+
+    - hero: Walter Cumm Doilish (Witch Hunter) [8XP]
+      stats: M4, WS3, BS3, S3, T3, W1, I3, A1, Ld7, Sv-
+      weapons: Crossbow, Hammer, Dagger
+      armour: Helmet
+      rules: Burn the Witch!
+      skilllists: Academic, Speed
+
+    - hero: Pip Bernadotte (Witch Hunter) [0XP]
+      stats: M4, WS3, BS3, S3, T3, W1, I3, A1, Ld7, Sv-
+      weapons: Crossbow, Hammer, Dagger
+      armour: Helmet
+      rules: Burn the Witch!
+      skilllists: Strength, Combat
+
+    - hero: Sir Hugh Irons (Witch Hunter) [0XP]
+      stats: M4, WS3, BS3, S3, T3, W1, I3, A1, Ld7, Sv-
+      weapons: Crossbow, Hammer, Dagger
+      armour: Helmet
+      rules: Burn the Witch!
+      skilllists: Strength, Combat
+
+    - hero: Seras Victoria (Warrior Priest) [0XP]
+      stats: M4, WS3, BS3, S3, T3, W1, I3, A1, Ld8, Sv-
+      weapons: Hammer, Dagger
+      armour:
+      rules: Wizard ()
+      skilllists: Strength, Combat
+
+henchmen:
+    - group: True Believers (2 Flagellants) [0XP]
+      stats: M4, WS3, BS3, S4, T4, W1, I3, A1, Ld10, Sv-
+      weapons: Flail
+      armour:
+      rules: Fanatical
+
+    - group: Hellhounds (5 Warhounds) [0XP]
+      stats: M6, WS4, BS0, S4, T3, W1, I4, A1, Ld5, Sv-
+      weapons:
+      armour:
+      rules: Animal

@@ -1,0 +1,15 @@
+{
+  "short_name": "MordheimPdfGenerator",
+  "name": "Mordheim Pdf Generator",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "Mordheim-Icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
