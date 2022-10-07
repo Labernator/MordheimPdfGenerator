@@ -4,7 +4,7 @@
             "name": "Eye of God",
             "type": "Dark Magic",
             "castingCost": "7+",
-            "text": "You may use the Eye of God successfully only once per Battle. Choose a single model within 6\". Roll a D6 to see the result: 1 - The Model is taken out of action immediately, but must not roll on the serious injuries chart. 2-5 - The Model gains +1 on any Characteristic for the remainder of the battle. 6 - The Model gains +1 on ALL its Characteristics for the remainder of the battle."
+            "text": "You may use the Eye of God successfully only once per Battle. Choose a single model within 6\".\nRoll a D6 to see the result:\n\n1 - The Model is taken out of action immediately, but must not roll on the serious injuries chart.\n\n2-5 - The Model gains +1 on any Characteristic for the remainder of the battle.\n\n6 - The Model gains +1 on ALL its Characteristics for the remainder of the battle."
         },
         {
             "name": "Spell of Doom",
@@ -16,19 +16,85 @@
             "name": "Fires of U'Zhul",
             "type": "Lesser Magic",
             "castingCost": "7+",
-            "text": "1 S4 Fireball with 18\" range."
+            "text": "Range 18\". Fire 1 S4 Fireball that automatically hits the target."
         },
         {
             "name": "Silver Arrows of Arha",
             "type": "Lesser Magic",
             "castingCost": "7+",
-            "text": "Can't be cast whilst in combat. D6+2 S3 arrows, 24\" range. Use BS but ignore movement, range and cover penalties."
+            "text": "Range 24\".\nCan't be cast whilst in combat. Fire D6+2 S3 arrows with the BS of the caster but ignore movement, range and cover penalties."
         },
         {
             "name": "Zzap!",
             "type": "Lesser Magic",
             "castingCost": "9+",
-            "text": "Range 12\". Causes D3 hits with S4 on the closest enemy model, that ignore armour saves."
+            "text": "Range 12\".\nCauses D3 hits with S4 on the closest enemy model, that ignore armour saves."
+        },
+        {
+            "name": "Stench of Nurgle",
+            "type": "Nurgle Rituals",
+            "castingCost": "8+",
+            "text": "Range 6\".\nEach enemy warrior in range must pass a Toughness test or lose an Attack until their next turn."
+        },
+        {
+            "name": "Daemonic Vigour",
+            "type": "Nurgle Rituals",
+            "castingCost": "8+",
+            "text": "Range 8\".\nAny Plague Bearers or Nurglings within range increase their Daemonic Aura save from 5+ to 4+ until the beginning of their next turn."
+        },
+        {
+            "name": "Buboes",
+            "type": "Nurgle Rituals",
+            "castingCost": "7+",
+            "text": "Range 8\".\nTarget an enemy model in range. The model must pass a Toughness test or lose a Wound. No Armour saves are allowed."
+        },
+        {
+            "name": "Pestilence",
+            "type": "Nurgle Rituals",
+            "castingCost": "10+",
+            "text": "Range 12\".\nAll enemy models in range suffer a Strength 3 hit. No Armour saves are allowed."
+        },
+        {
+            "name": "Scabrous Hide",
+            "type": "Nurgle Rituals",
+            "castingCost": "8+",
+            "text": "The Master has an armour save of 2+ which replaces any normal Armour save. The effect lasts until the beginning of his next Shooting phase."
+        },
+        {
+            "name": "The Hammer of Sigmar",
+            "type": "Prayers of Sigmar",
+            "castingCost": "7+",
+            "text": "The wielder gains +2 Strength in hand-to-hand combat and all hits he inflicts cause double damage (eg, 2 wounds instead of 1). The prayer lasts until the next shooting phase."
+        },
+        {
+            "name": "Hearts of Steel",
+            "type": "Prayers of Sigmar",
+            "castingCost": "8+",
+            "text": "Range 8\".\nAny allied warriors within range become immune to Fear and All Alone tests.\nIn addition, the whole warband gains +1 to any Rout tests they have to make. The effects of this spell last until the caster is knocked down, stunned or put out of action.\n\nThe effects of this payer are not cummulative."
+        },
+        {
+            "name": "Soulfire",
+            "type": "Prayers of Sigmar",
+            "castingCost": "9+",
+            "text": "Range 4\".\nAll enemy models within range suffer a Strength 3 hit.\nNo armour saves are allowed.\nUndead and Possessed models in range suffer a Strength 5 hit instead."
+        },
+        {
+            "name": "Shield of Faith",
+            "type": "Prayers of Sigmar",
+            "castingCost": "6+",
+            "text": "The Priest is immune to all spells. Roll at the beginning of each turn in the recovery phase. On a roll of 1 or 2 the shield disappears."
+        },
+        {
+            "name": "Healing Hand",
+            "type": "Prayers of Sigmar",
+            "castingCost": "5+",
+            "text": "Range 2\".\n Any one model within range (including himself) may be healed. The warrior is restored to his full quota of Wounds and if the model is stunned or knocked down, they immediately stand up, and continue fighting as normal."
+        },
+        {
+            "name": "Armour of Righteousness",
+            "type": "Prayers of Sigmar",
+            "castingCost": "9+",
+            "text": "The Priest has an armour save of 2+ which replaces his normal armour save.\nIn addition, he causes fear in his enemies and is therefore immune to fear himself.\nThe effect lasts until the beginning of his next Shooting phase."
         }
     ]
 }

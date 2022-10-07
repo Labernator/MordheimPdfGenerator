@@ -17,6 +17,7 @@
   .text-with-margins {
     margin: 0rem 0.25rem 0rem 0.25rem;
     padding: 0.25rem;
+    white-space: break-spaces;
   }
 
   .bold-text-with-margins {
