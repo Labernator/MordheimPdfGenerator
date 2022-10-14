@@ -227,7 +227,7 @@
                     "rarity": 0,
                     "weaponType": "Shooting",
                     "rules": [
-                        "Armour yield",
+                        "Armour Yield",
                         "Fire Twice"
                     ],
                     "strength": 3,

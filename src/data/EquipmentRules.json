@@ -115,6 +115,14 @@
         {
             "name": "Prodding",
             "text": "For this model, increase the control radius over Cave squigs from 6\" to 12\"."
+        },
+        {
+            "name": "Fire Twice",
+            "text": "The weapon may be fired twice in a single shooting phase, but both shots have a -1 to hit modifier."
+        },
+        {
+            "name": "Move or Fire",
+            "text": "The weapon may ony be fired if the model did not move this turn."
         }
     ]
 }
