@@ -550,7 +550,7 @@
                     "rarity": 6,
                     "genus": "Books & Scrolls",
 
-                    "text": ""
+                    "text": "Automatically pass the first leadership test this model needs to make (including Rout tests when worn by the leader)."
                 },
                 {
                     "type": "Unholy Relic",
@@ -559,7 +559,7 @@
                     "rarity": 6,
                     "genus": "Books & Scrolls",
 
-                    "text": "Automatically pass the first leadership test this model needs to make."
+                    "text": "Automatically pass the first leadership test this model needs to make (including Rout tests when worn by the leader)."
                 },
                 {
                     "type": "Holy Tome",

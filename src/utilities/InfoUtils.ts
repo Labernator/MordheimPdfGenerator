@@ -28,7 +28,7 @@ export const findSkills = (units: Array<HerosEntity | HenchmenEntity>): Array<Sp
         if (foundSkill) {
             return [...acc, foundSkill];
         }
-        if (rule.indexOf("Wizard") !== -1) {
+        if (rule.indexOf("Wizard") !== -1 || rule.indexOf("Priest") !== -1) {
             const classStart = rule.lastIndexOf("(");
             const classEnd = rule.lastIndexOf(")");
             const spellName = rule.substring(classStart + 1, classEnd);
