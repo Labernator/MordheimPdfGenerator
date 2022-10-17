@@ -1,6 +1,7 @@
 import React from "react";
 import { findEquipment, findSkills, getEquipmentRules } from "../utilities/InfoUtils";
 import { ArmourEntity, isArmour, isMelee, isMisc, isMissile, isSpell, MeleeWeaponsEntity, MiscallaneousEntity, MissileWeaponsEntity, SkillsEntity, SpellsEntity, WarbandState } from "../utilities/Interfaces";
+import { getWatermark } from "../utilities/RosterUtils";
 import { WarbandHeader } from "./WarbandHeader";
 
 export const PdfInfoPage = ({ state }: { state: WarbandState }) => {
@@ -12,8 +13,9 @@ export const PdfInfoPage = ({ state }: { state: WarbandState }) => {
     const equipment = findEquipment(units);
     return <React.Fragment>
         <div className="pdf-container" id="pdf-info-page" style={{ top: "-10000px" }}>
+            <img src={getWatermark(state.warband)} className="pdf-watermark"></img>
             <WarbandHeader warband={state} />
-            <div className="unit-container">
+            <div className="unit-container" style={{ minHeight: "50%" }}>
                 <NotesSection notes={state.notes} />
                 <SkillsSection skills={skills} />
                 <SpellsSection spells={spells} />

@@ -6,9 +6,9 @@ objective: ""
 alignment: ""
 
 heros:
-    - hero: Rancius Tuberculius (Carnival Master) [20XP]
+    - hero: Rancius (Carnival Master) [20XP]
       stats: M4, WS4, BS4, S3, T3, W1, I3, A1, Ld8, Sv-
-      weapons: Dagger, Dagger, Short Bow
+      weapons: Sword, Hammer, Bow
       armour:
       rules: Leader, Wizard (Stench of Nurgle)
       skilllists: Strength, Academic, Combat, Speed, Special
@@ -29,27 +29,32 @@ heros:
 
     - hero: Typhodium (Tainted One) [0XP]
       stats: M4, WS3, BS3, S3, T3, W2, I3, A1, Ld7, Sv-
-      weapons: Dagger, Dagger, Short Bow
+      weapons: Hammer, Hammer, Short Bow
       armour:
       rules: Immune to Poison, Mark of Nurgle
       skilllists: Strength, Academic, Combat, Speed, Special
 
     - hero: Diphthodium (Tainted One) [0XP]
       stats: M4, WS3, BS3, S3, T3, W2, I3, A1, Ld7, Sv-
-      weapons: Dagger, Dagger, Short Bow
+      weapons: Great Weapon, Short Bow
       armour:
       rules: Immune to Poison, Mark of Nurgle
       skilllists: Strength, Academic, Combat, Speed, Special
 
 henchmen:
-    - group: The Infested (2 Plaguebearer) [0XP]
-      stats: M4, WS4, BS3, S4, T4, W1, I4, A2, Ld10, Sv-
+    - group: The Infested (3 Nurglings) [0XP]
+      stats: M4, WS3, BS0, S3, T2, W1, I3, A1, Ld10, Sv-
       weapons:
       armour:
-      rules: Cloud of Flies, Fearsome, Immune to Psychology, Immune to Poison, Stream of Corruption, Daemonic Aura, Daemonic Instability
+      rules: Cloud of Flies, Immune to Psychology, Immune to Poison, Daemonic Aura, Daemonic Instability
 
-    - group: The Carrier (2 Brethren) [0XP]
+    - group: The Carrier (3 Brethren) [0XP]
       stats: M4, WS3, BS3, S3, T3, W1, I3, A1, Ld7, Sv-
       weapons: Dagger, Dagger
       armour:
       rules:
+
+notes: |
+  Rancius: 70 + 10 + 10 + 3 = 93 / Pestis: 60 / Choleris: 60 / Typhodium: 25 + 35 + 3 + 3 + 10 = 76 /
+  Diphtodium: 25 + 35 + 15 + 10 = 85 / The Carrier: 3 * 27 = 45 / The Infested: 3 * 15 = 81
+  Total: 93 + 60 + 60 + 76 + 85 + 45 + 81 = 500

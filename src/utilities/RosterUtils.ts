@@ -1,3 +1,4 @@
+import { MiddenheimPng, NurglePng, OnGPng, SigmarPng } from "../images";
 import { HenchmenEntity, HerosEntity, isHero, Stats } from "./Interfaces";
 
 export const extractExperience = (hero: HerosEntity): number => {
@@ -67,22 +68,11 @@ export const extractClass = (unit: HerosEntity | HenchmenEntity): string => {
     return nameAndXp.substring(classStart + 1, classEnd);
 };
 
-export const extractHenchmenBodiesForRating = (henchmen: HenchmenEntity): number => {
+export const extractHenchmenBodies = (henchmen: HenchmenEntity): number => {
     const nameAndXp = henchmen.group;
     const bracketStart = nameAndXp.lastIndexOf("(");
     const numberEnd = isNaN(parseInt(nameAndXp.charAt(bracketStart + 2), 10)) ? bracketStart + 2 : bracketStart + 3;
     const bodyCount = parseInt(nameAndXp.substring(bracketStart + 1, numberEnd), 10);
-    return bodyCount;
-};
-
-export const extractHenchmenBodiesForRoutLimit = (henchmen: HenchmenEntity): number => {
-    const nameAndXp = henchmen.group;
-    const bracketStart = nameAndXp.lastIndexOf("(");
-    const numberEnd = isNaN(parseInt(nameAndXp.charAt(bracketStart + 2), 10)) ? bracketStart + 2 : bracketStart + 3;
-    const bodyCount = parseInt(nameAndXp.substring(bracketStart + 1, numberEnd), 10);
-    if (henchmen.rules?.split(",").map((rule) => rule.trim()).find((rule) => rule === "Not Orcs")) {
-        return bodyCount / 2;
-    }
     return bodyCount;
 };
 
@@ -97,11 +87,11 @@ export const isLargeHenchman = (henchmanGroup: HenchmenEntity): boolean => {
 export const getWarbandRating = (heroes: HerosEntity[], henchmen: HenchmenEntity[]): number => {
     const experience = heroes.reduce((prev, curr) => prev + extractExperience(curr), 0) || 0;
     const heroBodies = heroes.length * 5;
-    const henchmenBodies = henchmen.reduce((prev, curr) => prev + extractHenchmenBodiesForRating(curr) + (isLargeHenchman(curr) ? 3 : 0), 0) * 5;
+    const henchmenBodies = henchmen.reduce((prev, curr) => prev + extractHenchmenBodies(curr) + (isLargeHenchman(curr) ? 3 : 0), 0) * 5;
     return experience + heroBodies + henchmenBodies;
 };
 
-const getWarbandSize = (heroes: HerosEntity[], henchmen: HenchmenEntity[]): number => heroes.length + henchmen.reduce((prev, curr) => prev + extractHenchmenBodiesForRoutLimit(curr), 0);
+const getWarbandSize = (heroes: HerosEntity[], henchmen: HenchmenEntity[]): number => heroes.length + henchmen.reduce((prev, curr) => prev + extractHenchmenBodies(curr), 0);
 export const getRoutLimit = (heroes: HerosEntity[], henchmen: HenchmenEntity[]): number => Math.ceil(getWarbandSize(heroes, henchmen) / 4);
 
 export const getStatLine = (statString: string): Stats => {
@@ -118,4 +108,15 @@ export const getStatLine = (statString: string): Stats => {
         LD: statArr[8],
         Sv: statString.substring(statString.indexOf("Sv") + 2),
     };
+};
+
+export const getWatermark = (warbandName: string) => {
+    const warbandType = warbandName.substring(warbandName.lastIndexOf("(") + 1, warbandName.lastIndexOf(")"));
+    switch (warbandType) {
+        case "Orcs & Goblins": return OnGPng;
+        case "Sisters of Sigmar": return SigmarPng;
+        case "Carnival of Chaos": return NurglePng;
+        case "Mercenaries of Middenheim": return MiddenheimPng;
+        default: return "";
+    }
 };

@@ -1,37 +1,45 @@
 .pdf-container {
-    width: 21cm;
-    height: 29.7cm;
-    margin: 10mm;
-    padding: 10mm;
-    font-size: 12px;
-    position: absolute;
-  }
+  width: 21cm;
+  height: 29.7cm;
+  margin: 10mm;
+  padding: 10mm;
+  font-size: 12px;
+  position: absolute;
+}
 
-  .unit-container {
-    border: 0.15rem solid;
-    border-radius: 0.25rem;
-    margin: 0.3rem;
-    padding: 0.4rem;
-  }
+.unit-container {
+  border: 0.15rem solid;
+  border-radius: 0.25rem;
+  margin: 0.3rem;
+  padding: 0.4rem;
+}
 
-  .text-with-margins {
-    margin: 0rem 0.25rem 0rem 0.25rem;
-    padding: 0.25rem;
-    white-space: break-spaces;
-  }
+.text-with-margins {
+  margin: 0rem 0.25rem 0rem 0.25rem;
+  padding: 0.25rem;
+  white-space: break-spaces;
+}
 
-  .bold-text-with-margins {
-    margin: 0rem 0.25rem 0rem 0.25rem;
-    padding: 0.25rem;
-    font-weight: bold;
-  }
+.bold-text-with-margins {
+  margin: 0rem 0.25rem 0rem 0.25rem;
+  padding: 0.25rem;
+  font-weight: bold;
+}
 
-  .unit-layout {
-    display: grid;
-    grid-template-columns: 50% 25% 25%;
-  }
+.unit-layout {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+}
 
-  .info-page-flexbox {
-    display: grid;
-    grid-template-columns: 30% 70%;
-  }
+.info-page-flexbox {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.pdf-watermark {
+  position: absolute;
+  opacity: 0.13;
+  width: 50%;
+  left: 25%;
+  top: 20%;
+}
