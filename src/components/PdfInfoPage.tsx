@@ -1,7 +1,10 @@
 import React from "react";
 import { findEquipment, findSkills, getEquipmentRules } from "../utilities/InfoUtils";
-import { ArmourEntity, isArmour, isMelee, isMisc, isMissile, isSpell, MeleeWeaponsEntity, MiscallaneousEntity, MissileWeaponsEntity, SkillsEntity, SpellsEntity, WarbandState } from "../utilities/Interfaces";
+import { ArmourEntity, HerosEntity, isArmour, isMelee, isMisc, isMissile, isSpell, MeleeWeaponsEntity, MiscallaneousEntity, MissileWeaponsEntity, SkillsEntity, SpellsEntity, WarbandState } from "../utilities/Interfaces";
 import { getWatermark } from "../utilities/RosterUtils";
+import { RulesSection } from "./RulesSection";
+import { StatsAndEquipmentSection } from "./StatsAndEquipmentSection";
+import { UnitHeader } from "./UnitHeader";
 import { WarbandHeader } from "./WarbandHeader";
 
 export const PdfInfoPage = ({ state }: { state: WarbandState }) => {
@@ -25,13 +28,23 @@ export const PdfInfoPage = ({ state }: { state: WarbandState }) => {
     </React.Fragment>;
 };
 
-const NotesSection = ({ notes }: { notes: string | undefined }) => {
+const NotesSection = ({ notes }: { notes: string | HerosEntity[] | undefined }) => {
     if (!notes) {
         return null;
     }
+    if (typeof notes === "string") {
+        return <React.Fragment>
+            <div className="large-header">Notes</div>
+            <div className="text-with-margins">{notes}</div>
+        </React.Fragment>;
+    }
     return <React.Fragment>
         <div className="large-header">Notes</div>
-        <div className="text-with-margins">{notes}</div>
+        {notes.map((note) => <React.Fragment>
+            <UnitHeader Unit={note} />
+            <StatsAndEquipmentSection Unit={note} />
+            <RulesSection Unit={note} />
+        </React.Fragment>)}
     </React.Fragment>;
 };
 
