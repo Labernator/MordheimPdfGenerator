@@ -2,9 +2,7 @@
     "Skills": [
 { "name": "Nimble", 
 "type": "Shooting",
-"text": "The warrior may move and fire with
- weapons that are normally only used if the firer has
- not moved."
+"text": "The warrior may move and fire with weapons that are normally only used if the firer has not moved."
 },
         {
             "name": "Axe Master",
