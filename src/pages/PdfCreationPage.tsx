@@ -20,6 +20,11 @@ export const PdfCreationPage = () => {
         jsPdf.addPage();
         canvas = await html2canvas(document.querySelector("#pdf-info-page") as HTMLElement, { scale: 4 });
         jsPdf.addImage(canvas.toDataURL("image/png"), "JPEG", 0, 0, jsPdf.internal.pageSize.getWidth(), jsPdf.internal.pageSize.getHeight());
+        if (document.querySelector("#pdf-info-page2")) {
+            jsPdf.addPage();
+            canvas = await html2canvas(document.querySelector("#pdf-info-page2") as HTMLElement, { scale: 4 });
+            jsPdf.addImage(canvas.toDataURL("image/png"), "JPEG", 0, 0, jsPdf.internal.pageSize.getWidth(), jsPdf.internal.pageSize.getHeight());
+        }
         jsPdf.save(`${state.warband}.pdf`);
     };
     const [showSuccess, setSuccess] = useState<boolean>(false);

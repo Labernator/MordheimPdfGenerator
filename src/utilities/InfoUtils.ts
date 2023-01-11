@@ -34,9 +34,19 @@ export const findSkills = (units: Array<HerosEntity | HenchmenEntity>): Array<Sp
             const spellName = rule.substring(classStart + 1, classEnd);
             const allSpells = spellName.split(",").map((entry) => entry.trim());
             const mappedSpells = allSpells.reduce((accum, element) => {
-                const foundSpell = AllSpells.find((spell) => spell.name === element);
+                let currentSpell = element;
+                let spellReduction = 0;
+                if (currentSpell.lastIndexOf("[")) {
+                    spellReduction = parseInt(currentSpell.substring(currentSpell.lastIndexOf("[") + 1, currentSpell.lastIndexOf("]")), 10);
+                    currentSpell = currentSpell.substring(0, currentSpell.lastIndexOf("[")).trim();
+                }
+                const foundSpell = AllSpells.find((spell) => spell.name === currentSpell);
                 if (foundSpell) {
-                    return [...accum, foundSpell];
+                    const modifiedSpell = {
+                        ...foundSpell,
+                        castingCost: spellReduction ? `${(parseInt(foundSpell.castingCost, 10) + spellReduction).toString()}+` : foundSpell.castingCost,
+                    };
+                    return [...accum, modifiedSpell];
                 }
                 return accum;
             }, [] as SpellsEntity[]);

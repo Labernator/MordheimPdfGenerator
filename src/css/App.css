@@ -70,3 +70,43 @@ code {
   width: 75%;
   max-width: 1000px
 }
+
+.storage-table {
+  margin: 0rem 1rem;
+}
+.storage-table > thead > tr {
+  font-weight: bold;
+}
+.storage-table > thead > tr > td{
+  font-weight: bold;
+  border-bottom: 1px solid var(--black-color);
+}
+.storage-table > tbody > tr > td {
+  padding: 0.75rem 0rem;
+}
+
+.enabled {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem;
+  border: 0.15rem solid;
+  border-radius: 0.25rem;
+  margin: 1rem 1rem 0rem;
+  width: -webkit-fill-available;
+}
+
+.disabled {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem;
+  border: 0.15rem solid;
+  border-radius: 0.25rem;
+  margin: 1rem 1rem 0rem;
+  width: -webkit-fill-available;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.selected {
+  background-color: grey;
+}

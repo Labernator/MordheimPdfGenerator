@@ -23,7 +23,7 @@
         {
             "name": "Expert Axeman",
             "type": "Combat",
-            "text": "Re-roll all failed hits with an Axe when charging."
+            "text": "The hero may re-roll to-hit rolls with axes when charging."
         },
         {
             "name": "Expert Swordsman",

@@ -1,60 +1,65 @@
 warband: The Unclean (Carnival of Chaos)
 campaign: 0
-gc: 0
+gc: 7
 shards: 0
+equipment: ["Short Bow"]
 objective: ""
 alignment: ""
 
 heros:
-    - hero: Rancius (Carnival Master) [20XP]
-      stats: M4, WS4, BS4, S3, T3, W1, I3, A1, Ld8, Sv-
-      weapons: Sword, Hammer, Bow
-      armour:
-      rules: Leader, Wizard (Stench of Nurgle)
-      skilllists: Strength, Academic, Combat, Speed, Special
 
-    - hero: Pestis (Brute) [8XP]
-      stats: M4, WS4, BS0, S4, T4, W1, I2, A2, Ld7, Sv-
+    - hero: Pestis (Brute) [14XP]
+      stats: M4, WS4, BS0, S4, T4, W2, I2, A2, Ld7, Sv-
       weapons:
       armour:
-      rules: No Need for Weapons
-      skilllists: Strength, Academic, Combat, Speed, Special
+      rules: No Need for Weapons, Hatred (Orcs and Goblins), Dodge
+      skilllists: Strength, Combat, Speed
 
-    - hero: Choleris (Brute) [8XP]
-      stats: M4, WS4, BS0, S4, T4, W1, I2, A2, Ld7, Sv-
+    - hero: Choleris (Brute) [15XP]
+      stats: M4, WS5, BS0, S4, T4, W1, I2, A2, Ld7, Sv-
       weapons:
       armour:
-      rules: No Need for Weapons
-      skilllists: Strength, Academic, Combat, Speed, Special
+      rules: No Need for Weapons, Resilient
+      skilllists: Strength, Combat, Speed
 
-    - hero: Typhodium (Tainted One) [0XP]
-      stats: M4, WS3, BS3, S3, T3, W2, I3, A1, Ld7, Sv-
-      weapons: Hammer, Hammer, Short Bow
-      armour:
-      rules: Immune to Poison, Mark of Nurgle
-      skilllists: Strength, Academic, Combat, Speed, Special
+    - hero: Typhodis (Tainted One) [6XP]
+      stats: M4, WS3, BS3, S3, T4, W3, I3, A1, Ld7, Sv-
+      weapons: Sword, Sword, Dagger, Bow, Rabbits Foot
+      armour: Master Map of Mordheim
+      rules: Immune to Poison, Mark of Nurgle, Expert Swordsman
+      skilllists: Combat, Speed
 
-    - hero: Diphthodium (Tainted One) [0XP]
-      stats: M4, WS3, BS3, S3, T3, W2, I3, A1, Ld7, Sv-
-      weapons: Great Weapon, Short Bow
+    - hero: Diphthodis (Tainted One) [8XP]
+      stats: M4, WS3, BS3, S3, T3, W2, I3, A1, Ld8, Sv-
+      weapons: Sword, Sword, Dagger, Bow, Rabbits Foot
+      armour: Unholy Relic
+      rules: Immune to Poison, Mark of Nurgle, Dodge, Expert Swordsman, Step Aside, Leader
+      skilllists:  Combat, Speed
+
+    - hero: Leukemis (Brethren) [0XP]
+      stats: M4, WS3, BS3, S3, T3, W1, I3, A1, Ld7, Sv-
+      weapons: Hammer, Hammer, Dagger, Bow
       armour:
-      rules: Immune to Poison, Mark of Nurgle
-      skilllists: Strength, Academic, Combat, Speed, Special
+      rules: Haggle
+      skilllists: Strength, Academic
 
 henchmen:
-    - group: The Infested (3 Nurglings) [0XP]
+    - group: The Infested (6 Nurglings) [0XP]
       stats: M4, WS3, BS0, S3, T2, W1, I3, A1, Ld10, Sv-
       weapons:
       armour:
       rules: Cloud of Flies, Immune to Psychology, Immune to Poison, Daemonic Aura, Daemonic Instability
 
-    - group: The Carrier (3 Brethren) [0XP]
+    - group: The Carrier (2 Brethren) [0XP]
       stats: M4, WS3, BS3, S3, T3, W1, I3, A1, Ld7, Sv-
-      weapons: Dagger, Dagger
+      weapons: Halberd, Short Bow
       armour:
       rules:
 
-notes: |
-  Rancius: 70 + 10 + 10 + 3 = 93 / Pestis: 60 / Choleris: 60 / Typhodium: 25 + 35 + 3 + 3 + 10 = 76 /
-  Diphtodium: 25 + 35 + 15 + 10 = 85 / The Carrier: 3 * 27 = 45 / The Infested: 3 * 15 = 81
-  Total: 93 + 60 + 60 + 76 + 85 + 45 + 81 = 500
+notes:
+    - hero: Rancius (returns in T-1) (Carnival Master) [27XP]
+      stats: M4, WS4, BS4, S3, T3, W1, I3, A1, Ld8, Sv-
+      weapons: Dagger
+      armour:
+      rules: Leader, Wizard (Stench of Nurgle [-1]), Mind Focus
+      skilllists: Strength, Academic, Combat, Speed

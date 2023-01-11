@@ -14,6 +14,26 @@ export const PdfInfoPage = ({ state }: { state: WarbandState }) => {
     const spells = findSkills(units).filter((entity) => entity && isSpell(entity)) as SpellsEntity[];
     const skills = findSkills(units).filter((entity) => entity && !isSpell(entity)) as SkillsEntity[];
     const equipment = findEquipment(units);
+    if (spells.length + skills.length + equipment.length > 15) {
+        return <React.Fragment>
+            <div className="pdf-container" id="pdf-info-page" style={{ top: "-10000px" }}>
+                <img src={getWatermark(state.warband)} className="pdf-watermark"></img>
+                <WarbandHeader warband={state} />
+                <div className="unit-container" style={{ minHeight: "50%" }}>
+                    <NotesSection notes={state.notes} />
+                    <SkillsSection skills={skills} />
+                </div>
+            </div>
+            <div className="pdf-container" id="pdf-info-page2" style={{ top: "-10000px" }}>
+                <img src={getWatermark(state.warband)} className="pdf-watermark"></img>
+                <WarbandHeader warband={state} />
+                <div className="unit-container" style={{ minHeight: "50%" }}>
+                    <SpellsSection spells={spells} />
+                    <EquipmentSection equipment={equipment} />
+                </div>
+            </div>
+        </React.Fragment>;
+    }
     return <React.Fragment>
         <div className="pdf-container" id="pdf-info-page" style={{ top: "-10000px" }}>
             <img src={getWatermark(state.warband)} className="pdf-watermark"></img>
@@ -26,6 +46,7 @@ export const PdfInfoPage = ({ state }: { state: WarbandState }) => {
             </div>
         </div>
     </React.Fragment>;
+
 };
 
 const NotesSection = ({ notes }: { notes: string | HerosEntity[] | undefined }) => {

@@ -750,7 +750,15 @@
                     "cost": 10,
                     "rarity": 0,
                     "genus": "Other Equipment",
-                    "text": "The wearer may re-roll one dice during the battle. If it is not used during the battle it, can be used to re-roll one dice during Exploration (provided the wearer may search the ruin)."
+                    "text": "The wearer may re-roll one dice during the battle. If it is not used during the battle it, can be used to re-roll one dice during Exploration (provided the wearer may search the ruins)."
+                },
+                {
+                    "type": "Master Map of Mordheim",
+                    "cost": 20,
+                    "variableCost": "4*D6",
+                    "rarity": 9,
+                    "genus": "Other Equipment",
+                    "text": "The hero may re-roll one dice on the exploration chart as long as he was not taken out if action in the battle."
                 }
 
             ]
