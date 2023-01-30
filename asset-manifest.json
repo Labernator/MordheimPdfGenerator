@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/MordheimPdfGenerator/static/css/main.7ba0afc4.chunk.css",
-    "main.js": "/MordheimPdfGenerator/static/js/main.dbadbd7c.chunk.js",
-    "main.js.map": "/MordheimPdfGenerator/static/js/main.dbadbd7c.chunk.js.map",
+    "main.js": "/MordheimPdfGenerator/static/js/main.7760a069.chunk.js",
+    "main.js.map": "/MordheimPdfGenerator/static/js/main.7760a069.chunk.js.map",
     "runtime-main.js": "/MordheimPdfGenerator/static/js/runtime-main.e57a76d6.js",
     "runtime-main.js.map": "/MordheimPdfGenerator/static/js/runtime-main.e57a76d6.js.map",
     "static/js/2.c9fbdb74.chunk.js": "/MordheimPdfGenerator/static/js/2.c9fbdb74.chunk.js",
     "static/js/2.c9fbdb74.chunk.js.map": "/MordheimPdfGenerator/static/js/2.c9fbdb74.chunk.js.map",
-    "static/js/3.62dea642.chunk.js": "/MordheimPdfGenerator/static/js/3.62dea642.chunk.js",
-    "static/js/3.62dea642.chunk.js.map": "/MordheimPdfGenerator/static/js/3.62dea642.chunk.js.map",
+    "static/js/3.d8927b26.chunk.js": "/MordheimPdfGenerator/static/js/3.d8927b26.chunk.js",
+    "static/js/3.d8927b26.chunk.js.map": "/MordheimPdfGenerator/static/js/3.d8927b26.chunk.js.map",
     "static/js/4.e43b5259.chunk.js": "/MordheimPdfGenerator/static/js/4.e43b5259.chunk.js",
     "static/js/4.e43b5259.chunk.js.map": "/MordheimPdfGenerator/static/js/4.e43b5259.chunk.js.map",
     "index.html": "/MordheimPdfGenerator/index.html",
     "static/css/main.7ba0afc4.chunk.css.map": "/MordheimPdfGenerator/static/css/main.7ba0afc4.chunk.css.map",
     "static/js/2.c9fbdb74.chunk.js.LICENSE.txt": "/MordheimPdfGenerator/static/js/2.c9fbdb74.chunk.js.LICENSE.txt",
-    "static/js/3.62dea642.chunk.js.LICENSE.txt": "/MordheimPdfGenerator/static/js/3.62dea642.chunk.js.LICENSE.txt",
+    "static/js/3.d8927b26.chunk.js.LICENSE.txt": "/MordheimPdfGenerator/static/js/3.d8927b26.chunk.js.LICENSE.txt",
     "static/js/4.e43b5259.chunk.js.LICENSE.txt": "/MordheimPdfGenerator/static/js/4.e43b5259.chunk.js.LICENSE.txt",
     "static/media/Completed.7ca392ee.png": "/MordheimPdfGenerator/static/media/Completed.7ca392ee.png",
     "static/media/ImportCrew.e5abae4c.png": "/MordheimPdfGenerator/static/media/ImportCrew.e5abae4c.png",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e57a76d6.js",
-    "static/js/3.62dea642.chunk.js",
+    "static/js/3.d8927b26.chunk.js",
     "static/css/main.7ba0afc4.chunk.css",
-    "static/js/main.dbadbd7c.chunk.js"
+    "static/js/main.7760a069.chunk.js"
   ]
 }
