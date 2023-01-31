@@ -343,6 +343,19 @@
                     ],
                     "strength": "As User",
                     "range": 6
+                },
+                {
+                    "type": "Blunderbuss",
+                    "cost": 30,
+                    "rarity": 9,
+                    "weaponType": "Shooting",
+                    "rules": [
+                        "Blunderbuss Shot",
+                        "Fire Once",
+                        "Blackpowder"
+                    ],
+                    "strength": 3,
+                    "range": 16
                 }
             ]
         },
@@ -527,6 +540,14 @@
                     "rarity": 8,
                     "genus": "Drugs, Poison & Potions",
                     "rules": []
+                },
+                {
+                    "type": "Wyrdstone Pendulum",
+                    "cost": 25,
+                    "variableCost": "3D6",
+                    "rarity": 9,
+                    "genus": "Other Equipment",
+                    "text": "If he was not taken out, the Hero using the Wyrdstone Pendulum may make a Leadership test after the battle. If he is successful, you may re-roll any one dice in the Exploration phase."
                 },
                 {
                     "type": "Garlic",

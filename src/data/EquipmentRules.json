@@ -123,6 +123,22 @@
         {
             "name": "Move or Fire",
             "text": "The weapon may ony be fired if the model did not move this turn."
+        },
+        {
+            "name": "Hand-to-Hand",
+            "text": "A model armed with this and another close combat weapon gains +1 Attack. This bonus attack can be used only in the first round of combat. If you have a brace, your model can fight with 2 Attacks in the first turn of close combat. These attacks are resolved with a model's Weapon Skill like any normal close combat attack and likewise may be parried. Successful hits are resolved like a shot (S4 with Cutting Edge). "
+        },
+        {
+            "name": "Prepare Shot",
+            "text": "Takes a complete turn to reload, so your model may only fire every other turn. If he has a brace he may fire every turn. "
+        },
+        {
+            "name": "Blunderbuss Shot",
+            "text": "When firing the blunderbuss, draw a line 16\" long and 1\" wide in any direction from the firer (the line must be absolutely straight). If the line becomes obstructed by a wall it will stop. Any and all models in its uninterupted path are automatically hit by a Strength 3 hit."
+        },
+        {
+            "name": "Fire Once",
+            "text": "It may only be fired it once per battle."
         }
     ]
 }

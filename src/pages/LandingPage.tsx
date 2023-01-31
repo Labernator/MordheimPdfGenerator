@@ -1,5 +1,4 @@
 import * as yaml from "js-yaml";
-import React from "react";
 import { useHistory } from "react-router-dom";
 import { GithubFilePicker } from "../components/GithubFilePicker";
 import { ImportWarbandPng } from "./../images";
@@ -14,12 +13,18 @@ export const LandingPage = () => {
                 accept=".yml"
                 style={{ display: "none" }}
                 onChange={() => {
+
                     const reader = new FileReader();
                     reader.onload = (ev: ProgressEvent<FileReader>) => {
-                        const jsobject = yaml.load(ev.target?.result as string);
-                        history.push("/PdfExport", jsobject);
+                        try {
+                            const jsobject = yaml.load(ev.target?.result as string);
+                            history.push("/PdfExport", jsobject);
+                        } catch (e) {
+                            throw (e);
+                        }
                     };
                     reader.readAsText((document.querySelector("#file-uploader") as HTMLInputElement)?.files?.item(0) as File);
+
                 }}
             />
             <img style={{ width: "25%", maxWidth: "1000px" }} src={ImportWarbandPng} alt="Import Icon"></img>

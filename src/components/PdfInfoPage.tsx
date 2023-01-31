@@ -49,7 +49,7 @@ export const PdfInfoPage = ({ state }: { state: WarbandState }) => {
 
 };
 
-const NotesSection = ({ notes }: { notes: string | HerosEntity[] | undefined }) => {
+const NotesSection = ({ notes }: { notes: string | Array<HerosEntity | string> | undefined }) => {
     if (!notes) {
         return null;
     }
@@ -61,11 +61,14 @@ const NotesSection = ({ notes }: { notes: string | HerosEntity[] | undefined }) 
     }
     return <React.Fragment>
         <div className="large-header">Notes</div>
-        {notes.map((note) => <React.Fragment>
-            <UnitHeader Unit={note} />
-            <StatsAndEquipmentSection Unit={note} />
-            <RulesSection Unit={note} />
-        </React.Fragment>)}
+        {notes.map((note) =>
+            typeof note === "string" ?
+                <div className="text-with-margins">{note}</div> :
+                <React.Fragment>
+                    <UnitHeader Unit={note} />
+                    <StatsAndEquipmentSection Unit={note} />
+                    <RulesSection Unit={note} />
+                </React.Fragment>)}
     </React.Fragment>;
 };
 

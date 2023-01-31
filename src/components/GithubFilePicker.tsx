@@ -35,9 +35,13 @@ export const GithubFilePicker = () => {
         if (!selectedFile) {
             return;
         }
-        const response = await fetch(selectedFile);
-        const txtResponse = await response.text();
-        history.push("/PdfExport", yaml.load(txtResponse));
+        try {
+            const response = await fetch(selectedFile);
+            const txtResponse = await response.text();
+            history.push("/PdfExport", yaml.load(txtResponse));
+        } catch (e) {
+            throw (e);
+        }
     };
     const getNavigationRoute = () =>
         navigationMap.length > 0 ?

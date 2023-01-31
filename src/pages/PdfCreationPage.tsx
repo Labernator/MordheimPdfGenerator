@@ -17,6 +17,12 @@ export const PdfCreationPage = () => {
         canvas = await html2canvas(document.querySelector("#pdf-roster") as HTMLElement, { scale: 4 });
         jsPdf.addImage(canvas.toDataURL("image/png"), "JPEG", 0, 0, jsPdf.internal.pageSize.getWidth(), jsPdf.internal.pageSize.getHeight());
 
+        if (document.querySelector("#pdf-roster2")) {
+            jsPdf.addPage();
+            canvas = await html2canvas(document.querySelector("#pdf-roster2") as HTMLElement, { scale: 4 });
+            jsPdf.addImage(canvas.toDataURL("image/png"), "JPEG", 0, 0, jsPdf.internal.pageSize.getWidth(), jsPdf.internal.pageSize.getHeight());
+        }
+
         jsPdf.addPage();
         canvas = await html2canvas(document.querySelector("#pdf-info-page") as HTMLElement, { scale: 4 });
         jsPdf.addImage(canvas.toDataURL("image/png"), "JPEG", 0, 0, jsPdf.internal.pageSize.getWidth(), jsPdf.internal.pageSize.getHeight());
